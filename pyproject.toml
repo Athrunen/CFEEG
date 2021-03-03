@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "cfeeg-spec"
+version = "0.1.0"
+description = ""
+authors = ["Malte Vrampe <athrunen@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+matplotlib = "^3.3.4"
+pyserial = "^3.5"
+plotly = "^4.14.3"
+pandas = "^1.2.2"
+notebook = "^6.2.0"
+ipywidgets = "^7.6.3"
+scipy = "^1.6.1"
+nest-asyncio = "^1.5.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
